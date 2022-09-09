@@ -57,5 +57,5 @@ def send_message(recipient_id, response):
     bot.send_text_message(recipient_id, response)
     return "success"
 
-if tinychatter1 == "main":
+if tinychatter1 == '__main__':
     app.run()
