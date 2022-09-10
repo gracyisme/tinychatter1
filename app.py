@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Mục đích của app này là dùng flask aka web application để listen các sự kiện từ hook của facebook trả về, sau đó reply lại với hook của facebook thông qua đó gửi được message cho người dùng
 
 # Đây là page access_token lấy từ https://developers.facebook.com/.
-PAGE_ACCESS_TOKEN = 'EAAQGwhNZBDtIBAEvuyPIfKYnxWmsFbJtm4hj4cb7u9VHvZA8qXrEiuAKPwwj3oiL4QRaZAsTQ3lSlL0pDz5csPmY4boXqKJuV8T6a7UNVXErDHbgO3LxDqGZBAbsApedZCT3GmXYm4sDvlgOOA5hiZAStCWeHN5H7sgywOsZAFZBSZC5kH32GnUx3MzS7BIUgAZBGXlUumZAMrHwgZDZD'
+PAGE_ACCESS_TOKEN = 'PAGE_ACCESS_TOKEN'
 # Gắn access token cho graph api messenger để có thể sử dụng.
 API = "https://graph.facebook.com/v14.0/me/messages?access_token="+PAGE_ACCESS_TOKEN
 
